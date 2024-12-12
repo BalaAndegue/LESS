@@ -23,6 +23,10 @@ def compress_monomial_action(Q, k, n, q):
                 break
 
     return π, u
+
+
+#--------------------------------------------------------------------------------#
+
 def expand_to_monomial_action(π, u, n, q):
     """
     Reconstruit une matrice monomiale Q à partir de listes compressées.

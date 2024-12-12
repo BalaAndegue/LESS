@@ -1,4 +1,6 @@
 import numpy as np
+
+
 def compress_rref(G, k, n, q):
     """
     Compresse une matrice génératrice en RREF en réduisant les données nécessaires.
@@ -41,6 +43,11 @@ pivots , non_pivots = compress_rref(G,k,n,q)
 
 print("colonne pivot :", pivots)
 print("valeurs non pivotes :", non_pivots)
+
+
+
+#-----------------------------------------------------------------------------------------#
+
 
 def expand_rref(pivots, non_pivot_values, k, n, q):
     """
